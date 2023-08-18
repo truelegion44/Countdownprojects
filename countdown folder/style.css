@@ -1,0 +1,24 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lilita+One&family=Merriweather:ital,wght@1,300&family=Poiret+One&family=Raleway:wght@200&family=Tilt+Prism&family=Tiro+Bangla:ital@1&family=Victor+Mono:wght@200&display=swap');
+
+  body{
+    background-color:black;
+
+  }
+  p{
+    width:fit-content;
+    font-size: 10vh;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: black;
+    margin-left: 40%;
+    margin-top: 20%;
+    border-radius: 30px;
+    padding: 20px;
+    margin-right: 40px;
+
+
+
+  }

@@ -5,6 +5,7 @@ const startingMinutes = 40;
 let time =startingMinutes * 60;
 //This line retrieves an HTML element from the webpage with the id "countDown". The countdownEl variable now references this HTML element, which is presumably used to display the countdown time.
 const countdownEl = document.getElementById("countDown")
+const countdownEl1 = document.getElementById("counter")
 
 // The setInterval function is used to call the updateCountdown function repeatedly every 1000 milliseconds (1 second). This will update the countdown every second.
 setInterval(updateCountdown, 1000);
@@ -17,8 +18,12 @@ function updateCountdown() {
   const minutes = Math.floor(time/60);
   // This line calculates the remaining seconds by taking the remainder of the division of time by 60. This gives the number of seconds left within the current minute.
   let seconds = time % 60;
+  let Nathaniel = 'Nathaniel'
+  let chebem = 'Chebem'
 
 // DISPLAYS THE MINUTES AND SECONDS 
   countdownEl.innerHTML = `${minutes} : ${seconds}`
+  countdownEl1.innerHTML = `${Nathaniel} ${chebem}`
   time --;
+  console.log('i am running')
 }

@@ -36,3 +36,19 @@
     margin-right: 40px;
 
   }
+  h3{
+    width:fit-content;
+    font-size: 10vh;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: black;
+    margin-left: 40%;
+    margin-top: 20%;
+    border-radius: 30px;
+    padding: 20px;
+    margin-right: 40px;
+
+
+  }
